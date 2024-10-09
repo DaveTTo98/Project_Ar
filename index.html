@@ -19,11 +19,11 @@
     <!-- Cargar activos -->
     <a-assets>
       <!-- Definir el modelo 3D -->
-      <a-asset-item id="my-model" src="path/to/your/model.gltf"></a-asset-item>
+      <a-asset-item id="my-model" src="assets/scene.gltf"></a-asset-item>
     </a-assets>
 
     <!-- Marcador personalizado AR.js (cambiar preset="hiro" por type="pattern") -->
-    <a-marker type="pattern" url="path/to/your/custom-marker.patt">
+    <a-marker type="pattern" url="assets/pattern-marker.patt">
       
       <!-- Incluir el modelo 3D -->
       <a-entity gltf-model="#my-model" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 45 0"></a-entity>
